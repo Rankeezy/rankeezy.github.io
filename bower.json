@@ -1,0 +1,9 @@
+{
+    "name": "Rankeezy Styleguide",
+    "version": "0.1.0",
+    "description": "A style guide for Rankeezy.",
+    "private": true,
+    "dependencies": {
+
+    }
+}

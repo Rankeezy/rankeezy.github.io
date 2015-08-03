@@ -1,0 +1,91 @@
+.site-header {
+    font-family: $brand-font-family;
+    border-bottom: 1px solid #eee;
+    background: $rank-gray;
+
+    a {
+        color: $rank-teal;
+    }
+
+    padding: $padding-sm 0px;
+}
+
+.nav-row {
+    border-bottom: 1px solid #eee;
+
+    a {
+        color: $light-gray;
+        display: inline-block;
+        padding: 18px 0px;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        margin-right: $padding-xs;
+
+        &:hover {
+            border-bottom: 2px solid #eee;
+            text-decoration: none;
+        }
+    }
+}
+
+.home-intro {
+    background: #f9f9f9;
+    padding: $padding-lg 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: $padding-lg;
+
+    h2 {
+        font-weight: 700;    
+        font-size: 1.4rem;
+        margin-bottom: $padding-sm;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.page-content {
+    padding: $padding-sm 0px;
+}
+
+.compontent-nav {
+    border: 1px solid #eee;
+    border-bottom: none;
+    width: 240px;
+    float: left;
+    margin-right: $padding-md;
+
+    li {
+        border-bottom: 1px solid #eee;
+    }
+
+    a {
+        padding: $padding-xs;
+        display: block;
+        &:hover {
+            text-decoration: none;
+            background: #eee;
+            color: $gray;
+        }
+    }
+}
+
+.components {
+    margin-left: 270px;
+}
+
+.component {
+
+    h3 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: $padding-sm;
+    }
+
+    &+.component {
+        margin-top: $padding-lg;
+    }
+
+}
+

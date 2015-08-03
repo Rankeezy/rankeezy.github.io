@@ -1,0 +1,19 @@
+.section-colors {
+
+	.color {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: $padding-lg 0;
+		width: 20%;
+		float: left;
+		text-align: center;
+	}
+
+	.color-teal { background: $rank-teal; }
+	.color-dark-teal { background: $rank-dark-teal; }
+	.color-rank-gray { background: $rank-gray; }
+	.color-gray { background: $gray; }
+	.color-light-gray { background: $light-gray; }
+
+}

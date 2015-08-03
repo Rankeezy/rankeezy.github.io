@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    font-family: $primary-font-family;
+    font-weight: 300;
+    color: $gray;
+    line-height: 1.4rem;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 960px;
+    min-width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: $rank-dark-teal;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: $padding-sm;
+}

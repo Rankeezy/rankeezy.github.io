@@ -1,0 +1,44 @@
+.btn {
+	border-radius: 2px;
+	font-weight: 700;
+	border: 1px solid $light-gray;
+	padding: .6em .8em;
+	color: $gray;
+	display: inline-block;
+
+	background: linear-gradient(to bottom, #fff, #f7f7f7);
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active {
+		background: #f7f7f7;
+	}
+
+	// Preferred Style
+
+	&.btn-preferred {
+		background: linear-gradient(to bottom, $rank-teal, $rank-dark-teal);
+		color: #fff;
+		border-color: transparent;
+	}
+
+	&.btn-preferred:active {
+		background: $rank-dark-teal;
+	}
+
+	// Outline Style
+
+	&.btn-outline {
+		background: none;
+		border: 2px solid $rank-dark-teal;
+		color: $rank-dark-teal;
+	}
+
+	&.btn-outline:active {
+		background: $rank-dark-teal;
+		color: #fff;
+	}
+
+}

@@ -1,0 +1,27 @@
+---
+layout: home
+---
+
+<nav class="compontent-nav">
+
+    <ul>
+        {% for component in site.components %}
+            <li><a href="#{{ component.anchor }}">{{ component.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+</nav>
+
+<div class="components">
+
+    {% for component in site.components %}
+
+        <section class="component section-{{ component.class }}">
+
+            {{ component.content }}
+            
+        </section>
+
+    {% endfor %}
+
+</div>
