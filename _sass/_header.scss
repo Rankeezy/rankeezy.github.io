@@ -1,0 +1,57 @@
+.site-header {
+    font-family: $brand-font-family;
+    border-bottom: 1px solid #eee;
+    background: $rank-gray;
+    overflow: auto;
+
+    a {
+        color: $rank-dark-teal;
+        transition: all .3s;
+        float: left;
+        &:hover {
+        	text-decoration: none;
+        	color: $rank-teal;
+        }
+    }
+
+    img, span {
+    	vertical-align: middle;
+    }
+
+    img {
+    	display: inline-block;
+    	width: 30px;
+    	height: auto;
+    }
+
+    span {
+    	border-left: 1px solid $rank-dark-teal;
+    	padding-left: 16px;
+    	margin-left: 12px;
+    }
+
+    padding: 27px 0px;
+}
+
+.site-navigation {
+	font-weight: 700;
+	font-family: $primary-font-family;
+	font-size: .8rem;
+	text-transform: uppercase;
+	float: right;
+
+	ul {
+		padding-top: 8px;
+	}
+
+	li {
+		margin-left: 10px;
+		display: block;
+		float: left;
+	}
+
+	a {
+		color: #5f696e;
+	}
+
+}
