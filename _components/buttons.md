@@ -1,5 +1,4 @@
 ---
-layout: component
 title:  "Buttons"
 class: 	"buttons"
 anchor: "component-buttons"

@@ -1,5 +1,4 @@
 ---
-layout: component
 title:  "Colors"
 class: 	"colors"
 anchor: "component-colors"
