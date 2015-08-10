@@ -1,2 +1,2 @@
 # rankeezy.github.io
-The Rankeezy Styleguide
+The Rankeezy style guide
