@@ -1,7 +1,7 @@
 # Site settings
-title: Rankeezy Styleguide
+title: Rankeezy style guide
 email: www.rankeezy.com
-description: A Styleguide for Rankeezy
+description: A style guide for Rankeezy
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rankeezy.github.io" # the base hostname & protocol for your site
 
